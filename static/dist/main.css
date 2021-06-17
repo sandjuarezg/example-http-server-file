@@ -1,0 +1,38 @@
+.body {
+  background: #f3d4f5;
+}
+
+.header {
+  background: #c989cd;
+}
+.header__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.header__title {
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+}
+
+.nav__list {
+  list-style-type: none;
+  padding: 5px;
+}
+.nav__item {
+  padding: 10px;
+}
+.nav__item:hover {
+  background: #a06ea4;
+}
+.nav__link {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+/*# sourceMappingURL=main.css.map */

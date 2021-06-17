@@ -1,0 +1,46 @@
+@use 'colors';
+
+.body {
+    background: colors.$color-background;
+}
+
+.header {
+    background: colors.$color-header-background;
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-size: 22px;
+        color: colors.$color-black;
+        font-weight: bold;
+    }
+}
+
+.nav { 
+    &__list {
+        list-style-type: none;
+        padding: 5px;
+    }
+
+    &__item {
+        padding: 10px;
+
+        &:hover{
+            background: colors.$color-link-hover;
+        }
+    }
+    
+
+    &__link {
+        text-decoration: none;
+        font-size: 20px;
+        color: colors.$color-black;
+    }
+}
